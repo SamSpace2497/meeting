@@ -1,0 +1,39 @@
+{
+    "based_on": "modified",
+    "chart_name": "Number Of Attendees",
+    "chart_type": "Count",
+    "color": "#e69a20",
+    "creation": "2024-04-01 18:44:09.224458",
+    "docstatus": 0,
+    "doctype": "Dashboard Chart",
+    "document_type": "User",
+    "dynamic_filters_json": "[]",
+    "filters_json": "[]",
+    "group_by_type": "Count",
+    "idx": 0,
+    "is_public": 1,
+    "is_standard": 1,
+    "modified": "2024-04-01 18:44:09.224458",
+    "modified_by": "Administrator",
+    "module": "Meeting",
+    "name": "Number Of Attendees",
+    "number_of_groups": 0,
+    "owner": "Administrator",
+    "parent_document_type": "",
+    "roles": [
+     {
+      "role": "Meeting Attendee"
+     },
+     {
+      "role": "Meeting Manager"
+     }
+    ],
+    "source": "",
+    "time_interval": "Daily",
+    "timeseries": 1,
+    "timespan": "Last Week",
+    "type": "Bar",
+    "use_report_chart": 0,
+    "value_based_on": "",
+    "y_axis": []
+   }
