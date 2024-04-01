@@ -51,7 +51,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Planned\nIn Progress\nCompleted\nCancelled",
+   "options": "Planned\nInvitation Sent\nIn Progress\nCompleted\nCancelled",
    "reqd": 1
   },
   {
@@ -109,12 +109,13 @@
   {
    "fieldname": "send_emails",
    "fieldtype": "Button",
-   "label": "Send Emails"
+   "label": "Send Emails",
+   "read_only_depends_on": "eval:doc.status===\"Planned\""
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-28 13:04:38.984521",
+ "modified": "2024-03-28 23:45:44.483389",
  "modified_by": "Administrator",
  "module": "MeetIn",
  "name": "Meeting",
